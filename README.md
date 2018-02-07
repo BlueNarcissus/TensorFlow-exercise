@@ -1,2 +1,3 @@
 # TensorFlow_Exercise
-Exercises about Tensorflow
+Get started with TensorFlow!
+
