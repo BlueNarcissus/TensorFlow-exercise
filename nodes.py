@@ -14,7 +14,6 @@ node3 = tf.add(node1, node2) # create a new node, operation
 print(node3)
 print(sess.run(node3))
 
-
 """ (2) placeholder: provide a value later """
 a = tf.placeholder(tf.float32)
 b = tf.placeholder(tf.float32)
@@ -24,7 +23,6 @@ print(sess.run(adder_node, feed_dict={a:[1,3], b:[2,4]}))
 
 add_triple_node = adder_node*3
 print(sess.run(add_triple_node, feed_dict={a:3, b:4.5}))
-
 
 """ (3) Variable: add trainable parameters to a graph """
 W = tf.Variable([0.3], dtype=tf.float32)
