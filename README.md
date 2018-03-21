@@ -1,3 +1,2 @@
 # TensorFlow_Exercise
-Get started with TensorFlow!
-
+ Exercises for Stanford course CS20SI: TensorFlow for Deep Learning Research.
